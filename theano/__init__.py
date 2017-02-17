@@ -212,3 +212,7 @@ def sparse_grad(var):
 
 
 __import__('theano.tensor.shared_randomstreams')
+
+# Theano optimization can be complicated and involve many nested functoin calls
+# for very deep networks. Increase the recursion depth
+sys.setrecursionlimit(50000)
