@@ -1,3 +1,5 @@
+This module is a fork of the original. Forked by js3611
+
 To install the package, see this page:
 
    http://deeplearning.net/software/theano/install.html
